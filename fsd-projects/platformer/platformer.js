@@ -27,44 +27,34 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     toggleGrid();
-
+    toggleGrid();
 
     // TODO 2 - Create Platforms
-   createPlatform(50,300,100,90);
-    createPlatform(1000,200,90,30,"yellow");
-    createPlatform(300,300,100,40,"yellow");
-    createPlatform(600,500,100,40);
-    createPlatform(450,400,20,2000);
-    createPlatform(800,500,100,40);
-    createPlatform(1200,450,100,40);
-    createPlatform(1000,400,100,40);
-    createPlatform(800,300,100,40);
-    createPlatform(1250,300,100,40,"yellow");
-
-
-
+    createPlatform(50, 300, 100, 90);
+    createPlatform(1000, 200, 90, 30, "yellow");
+    createPlatform(300, 300, 100, 40, "yellow");
+    createPlatform(600, 500, 100, 40);
+    createPlatform(450, 400, 20, 2000);
+    createPlatform(800, 500, 100, 40);
+    createPlatform(1200, 450, 100, 40);
+    createPlatform(1000, 400, 100, 40);
+    createPlatform(800, 300, 100, 40);
+    createPlatform(1250, 300, 100, 40, "yellow");
 
     // TODO 3 - Create Collectables
     createCollectable("kennedi", 300, 300, 0.6, 0.8);
-    createCollectable("max", 300, 200, 0.6, 0,8);
+    createCollectable("max", 300, 200, 0.6, 0, 8);
     createCollectable("diamond", 1000, 100, 0.8, 0.9);
     createCollectable("steve", 1250, 100, 0.8, 0.9);
 
-
-
-    
     // TODO 4 - Create Cannons
-    createCannon("top",200,1000);
+    createCannon("top", 200, 1000);
     createCannon("bottom", 550, 1000);
     createCannon("right", 100, 1000);
-    createCannon("bottom",1150,1000);
+    createCannon("bottom", 1150, 1000);
     createCannon("top", 500, 1000);
     createCannon("right", 300, 1000);
-    
 
-    
-    
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
